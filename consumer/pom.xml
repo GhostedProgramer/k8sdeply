@@ -47,7 +47,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.2.2</version>
                 <configuration>
-                    <imageName>${docker.image.prefix}/${project.artifactId}:v2</imageName>
+                    <imageName>${docker.image.prefix}/${project.artifactId}:v3</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
